@@ -55,3 +55,25 @@ Suspicious Activity
 IP Address,Failed Login Count
 203.0.113.5,11
 192.168.1.100,7
+
+To check:
+
+1. Functionality:
+
+Processes log files for IP requests, endpoint analysis, and suspicious activity detection.
+
+Correctly flags IPs exceeding the failed login threshold.
+
+
+
+2. Output:
+
+Terminal output is well-structured and readable.
+
+CSV output aligns with the specified format.
+
+
+
+3. Code Quality:
+
+Modular functions for parsing, displaying, and writing results.
